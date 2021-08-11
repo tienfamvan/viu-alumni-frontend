@@ -1,0 +1,11 @@
+@import "variables";
+@import "reset";
+@import "fonts";
+
+html,
+body {
+  letter-spacing: -0.022em;
+  color: $color-text-main;
+  background-color: $color-white;
+  @extend .font-body-17r;
+}
